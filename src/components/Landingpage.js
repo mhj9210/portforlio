@@ -12,10 +12,7 @@ const Landingpage = () => {
               Joshua H. Min
             </h1>
             <hr className=" col-sm-3 hr-light my-3 animated fadeInDown"></hr>
-            <h5
-              className="text-uppercase animated fadeInDown slow"
-              data-wow-delay="0.4s"
-            >
+            <h5 className="text-uppercase animated fadeInDown slow">
               <strong>Web Developer & Full Stack Developer</strong>
             </h5>
             <Link
