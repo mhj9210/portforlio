@@ -26,34 +26,45 @@ const Home = (props) => {
   };
 
   return (
-    <div style={{ height: "100vh", backgroundColor: "#99b898" }} id="home">
-      <div className="container center text-center">
-        <div className="row">
-          <div className="col-md-12">
+    <div
+      className="container-fluid"
+      style={{ height: "93vh", backgroundColor: "#99b898" }}
+      id="home"
+    >
+      <div className="h-100 row align-items-center">
+        <div className="col-xs-12 col-s-12 col-md-12 col-lg-12 col-xl-12 m-auto">
+          <div className="col-md-6 text-center m-auto">
             <h1 className="text-white bold home_welcome animated fadeInDown slow">
               {txtChanges}
             </h1>
-            <div>
-              <form onSubmit={submitHandler}>
+          </div>
+          <div className="col-md-6 text-center m-auto">
+            <form onSubmit={submitHandler}>
+              <input
+                type="text"
+                className="home_name_input animated fadeInUp slow"
+                value={name}
+                onChange={changeHandler}
+                placeholder="Enter your name here!"
+              />
+              <hr className="home_hr"></hr>
+              {name.length === 0 ? null : (
                 <input
-                  type="text"
-                  className="home_name_input animated fadeInUp slow"
-                  value={name}
-                  onChange={changeHandler}
-                  placeholder="Enter your name here!"
+                  type="submit"
+                  className="btn btn-success animated fadeIn slower"
                 />
-                <hr className="home_hr"></hr>
-                {name.length === 0 ? null : (
-                  <input
-                    type="submit"
-                    className="btn btn-success animated fadeIn slower"
-                  />
-                )}
-              </form>
-            </div>
+              )}
+            </form>
             <div className="col-md-12">
               {name ? (
-                <h1 style={{ color: "#fff", marginTop: "30px" }}>
+                <h1
+                  className="animated fadeIn slower"
+                  style={{
+                    color: "#fff",
+                    marginTop: "30px",
+                    fontFamily: "Bellota, cursive",
+                  }}
+                >
                   Hey, {name}! Please click submit and continue.
                 </h1>
               ) : (
