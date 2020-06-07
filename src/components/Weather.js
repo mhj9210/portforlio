@@ -20,7 +20,7 @@ class Weather extends Component {
         //Api call
         axios
           .get(
-            `http://api.weatherstack.com/current?access_key=781196f9db80f6e12918f92f76c6bf18&query=${this.state.coords.latitude},${this.state.coords.longitude}&units=f`
+            `${process.env.REACT_APP_API}&query=${this.state.coords.latitude},${this.state.coords.longitude}&units=f`
           )
           .then((res) => {
             let data = {
