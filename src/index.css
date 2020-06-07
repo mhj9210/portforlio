@@ -1,13 +1,119 @@
+/* --------------GLOBAL CSS---------------------- */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
+
+.bold {
+  font-weight: 400;
+}
+
+.sticky_nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+/* --------------------------------------------------------- */
+
+/* -------------------LANDING PAGE-------------------------- */
+.landing_bg {
+  height: 100vh;
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.landing_name {
+  letter-spacing: 5px;
+  font-size: 4.5rem;
+}
+/* --------------------------------------------------------------- */
+
+/* ---------------------HOME-------------------------------------- */
+.home_welcome {
+  font-size: 4em;
+}
+
+.home_name_input {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+
+.home_hr {
+  width: 50%;
+}
+
+.active {
+  border-bottom: 3px solid #ff7315;
+}
+/* ----------------------------------------------------- */
+
+/* ------------------- ABOUT --------------------------- */
+
+.about_head {
+  padding: 7% 0 0 0;
+}
+
+.about_head h3 {
+  font-size: 3.5rem;
+  font-family: "Lobster", cursive;
+}
+
+.about_head h4 {
+  font-size: 1.5rem;
+  font-family: "Architects Daughter", cursive;
+}
+
+.about_img {
+  border-radius: 50px;
+}
+/* ------------ SKILLS----------------------------- */
+.card {
+  position: absolute;
+  top: 50%;
+}
+
+.skill_title {
+  font-size: 25px;
+}
+
+.list-group-item {
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.skill_list {
+  font-size: 20px;
+  width: 25%;
+}
+
+.rating {
+  text-align: end;
+  width: 25%;
+}
+
+/* ------------------------------------------------------- */
+
+/* ------------------- PROJECTS--------------------------- */
+.project_card {
+  background-color: #99b898 !important;
+  height: 45vh;
+}
+
+/* ------------------------------------------------------- */
