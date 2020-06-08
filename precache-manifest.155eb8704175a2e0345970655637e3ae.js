@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e81fe89b5e651ee9e45a7a597708ca3",
+    "revision": "7322d9814da9811b594776ab2dc7a22f",
     "url": "/portforlio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portforlio/static/css/2.a79b8e5d.chunk.css"
   },
   {
-    "revision": "5211b2099cc90ce455f3",
+    "revision": "ed07f9f781c07a42b2bc",
     "url": "/portforlio/static/css/main.c34256ad.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portforlio/static/js/2.1d19f97c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5211b2099cc90ce455f3",
-    "url": "/portforlio/static/js/main.4cb354d3.chunk.js"
+    "revision": "ed07f9f781c07a42b2bc",
+    "url": "/portforlio/static/js/main.468a5896.chunk.js"
   },
   {
     "revision": "78a516eb3a0f08fd1497",
