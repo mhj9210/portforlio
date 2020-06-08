@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portforlio/static/css/main.70cf16fd.chunk.css",
+    "main.js": "/portforlio/static/js/main.8f678583.chunk.js",
+    "main.js.map": "/portforlio/static/js/main.8f678583.chunk.js.map",
+    "runtime-main.js": "/portforlio/static/js/runtime-main.20d36828.js",
+    "runtime-main.js.map": "/portforlio/static/js/runtime-main.20d36828.js.map",
+    "static/css/2.a79b8e5d.chunk.css": "/portforlio/static/css/2.a79b8e5d.chunk.css",
+    "static/js/2.1d19f97c.chunk.js": "/portforlio/static/js/2.1d19f97c.chunk.js",
+    "static/js/2.1d19f97c.chunk.js.map": "/portforlio/static/js/2.1d19f97c.chunk.js.map",
+    "index.html": "/portforlio/index.html",
+    "precache-manifest.516c7adf45e002cacb13f7cb74b8e03d.js": "/portforlio/precache-manifest.516c7adf45e002cacb13f7cb74b8e03d.js",
+    "service-worker.js": "/portforlio/service-worker.js",
+    "static/css/2.a79b8e5d.chunk.css.map": "/portforlio/static/css/2.a79b8e5d.chunk.css.map",
+    "static/css/main.70cf16fd.chunk.css.map": "/portforlio/static/css/main.70cf16fd.chunk.css.map",
+    "static/js/2.1d19f97c.chunk.js.LICENSE.txt": "/portforlio/static/js/2.1d19f97c.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/portforlio/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/portforlio/static/media/fa-solid-900.ec763292.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20d36828.js",
+    "static/css/2.a79b8e5d.chunk.css",
+    "static/js/2.1d19f97c.chunk.js",
+    "static/css/main.70cf16fd.chunk.css",
+    "static/js/main.8f678583.chunk.js"
+  ]
+}
