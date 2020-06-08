@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portforlio/index.html/static/css/main.70cf16fd.chunk.css",
-    "main.js": "/portforlio/index.html/static/js/main.8f678583.chunk.js",
-    "main.js.map": "/portforlio/index.html/static/js/main.8f678583.chunk.js.map",
+    "main.js": "/portforlio/index.html/static/js/main.a59e89ff.chunk.js",
+    "main.js.map": "/portforlio/index.html/static/js/main.a59e89ff.chunk.js.map",
     "runtime-main.js": "/portforlio/index.html/static/js/runtime-main.6fb560cc.js",
     "runtime-main.js.map": "/portforlio/index.html/static/js/runtime-main.6fb560cc.js.map",
     "static/css/2.d0590927.chunk.css": "/portforlio/index.html/static/css/2.d0590927.chunk.css",
     "static/js/2.1d19f97c.chunk.js": "/portforlio/index.html/static/js/2.1d19f97c.chunk.js",
     "static/js/2.1d19f97c.chunk.js.map": "/portforlio/index.html/static/js/2.1d19f97c.chunk.js.map",
     "index.html": "/portforlio/index.html/index.html",
-    "precache-manifest.986a8a86f98c892232e5c7ba9c01f3ef.js": "/portforlio/index.html/precache-manifest.986a8a86f98c892232e5c7ba9c01f3ef.js",
+    "precache-manifest.a6f334d667cd37b1153638033ddc94b9.js": "/portforlio/index.html/precache-manifest.a6f334d667cd37b1153638033ddc94b9.js",
     "service-worker.js": "/portforlio/index.html/service-worker.js",
     "static/css/2.d0590927.chunk.css.map": "/portforlio/index.html/static/css/2.d0590927.chunk.css.map",
     "static/css/main.70cf16fd.chunk.css.map": "/portforlio/index.html/static/css/main.70cf16fd.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.d0590927.chunk.css",
     "static/js/2.1d19f97c.chunk.js",
     "static/css/main.70cf16fd.chunk.css",
-    "static/js/main.8f678583.chunk.js"
+    "static/js/main.a59e89ff.chunk.js"
   ]
 }
