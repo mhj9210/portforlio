@@ -8,12 +8,15 @@ const Projects = () => {
       id="projects"
     >
       <div className="row">
-        <div className="col-md-12 d-flex justify-content-around">
+        <div
+          className="col-md-12"
+          style={{ display: "flex", justifyContent: "space-around" }}
+        >
           <div className="col-md-3 project_qs">
             <div className="card text-center p-4 project_card">
               <img
                 className="card-img-top"
-                src="/image/qs.png"
+                src="https://i.imgur.com/lZsx4xF.png"
                 alt="Quarter Scheduling"
               />
               <div className="card-body">
@@ -45,7 +48,7 @@ const Projects = () => {
             <div className="card text-center p-4 project_card">
               <img
                 className="card-img-top"
-                src="/image/pathways.png"
+                src="https://business.lacity.org/sites/g/files/wph521/themes/site/logo.png"
                 alt="Pathways"
               />
               <div className="card-body mt-4">

@@ -8,8 +8,11 @@ const Skills = () => {
       id="skills"
     >
       <div className="row">
-        <div className="col-md-12 d-flex justify-content-center">
-          <div className="col-md-4">
+        <div
+          className="col-md-12"
+          style={{ display: "flex", justifyContent: "space-around" }}
+        >
+          <div className="col-md-4 col-lg-4">
             <div className="card">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item text-center">
@@ -69,7 +72,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 col-lg-4">
             <div className="card">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item text-center">

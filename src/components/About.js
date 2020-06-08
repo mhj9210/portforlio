@@ -26,7 +26,11 @@ const About = (props) => {
               <div className="row">
                 <div className="col-md-6 mb-4 mb-md-0">
                   <div className="view">
-                    <img src="image/josh.jpg" className="img-fluid" alt="" />
+                    <img
+                      src="https://i.imgur.com/70J9vRX.jpg"
+                      className="img-fluid"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="col-md-6 mb-4 mb-md-0">
