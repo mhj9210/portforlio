@@ -8,7 +8,7 @@ const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={Landingpage} />
+        <Route path="/portforlio/index.html" exact component={Landingpage} />
         <Route path="/main" exact component={Main} />
       </Switch>
     </Router>
