@@ -13,7 +13,9 @@ const Landingpage = () => {
             </h1>
             <hr className=" col-sm-3 hr-light my-3 animated fadeInDown"></hr>
             <h5 className="text-uppercase animated fadeInDown slow">
-              <strong>Web Developer & Full Stack Developer</strong>
+              <strong style={{ fontSize: "30px" }}>
+                Web Developer & Full Stack Developer
+              </strong>
             </h5>
             <Link
               to="/main"

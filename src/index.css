@@ -74,8 +74,7 @@ body {
 }
 /* ------------ SKILLS----------------------------- */
 .card {
-  position: absolute;
-  top: 50%;
+  margin-top: 50%;
 }
 
 .skill_title {
