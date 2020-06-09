@@ -12,7 +12,7 @@ const About = (props) => {
       style={{ height: "100vh", backgroundColor: "#f4f4f4" }}
       id="about"
     >
-      <div className="row" style={{ paddingTop: "10%" }}>
+      <div className=" h-100 row" style={{ paddingTop: "10%" }}>
         <div className="col-sm-6 col-md-6 col-lg-6">
           <img
             src="https://i.imgur.com/4PrCrOS.jpg"

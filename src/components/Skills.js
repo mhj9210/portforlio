@@ -7,7 +7,7 @@ const Skills = () => {
       style={{ height: "100vh", backgroundColor: "#4f98ca" }}
       id="skills"
     >
-      <div className="row">
+      <div className=" h-100 row">
         <div
           className="col-md-12"
           style={{ display: "flex", justifyContent: "space-around" }}

@@ -7,7 +7,7 @@ const Contact = (props) => {
       style={{ height: "100vh", backgroundColor: "#30475e" }}
       id="contact"
     >
-      <div className="row ">
+      <div className="row h-100 ">
         <div className="col-md-12">
           <h1
             className="col-md-12"
