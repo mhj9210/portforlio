@@ -28,7 +28,7 @@ const Home = (props) => {
   return (
     <div
       className="container-fluid"
-      style={{ height: "93vh", backgroundColor: "#99b898" }}
+      style={{ height: "95vh", backgroundColor: "#99b898" }}
       id="home"
     >
       <div className="h-100 row align-items-center">

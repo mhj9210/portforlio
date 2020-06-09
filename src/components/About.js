@@ -41,7 +41,7 @@ const About = (props) => {
               marginBottom: "15px",
             }}
           >
-            Hello, {props.name === "" ? "Guest" : props.name}.{" "}
+            Hello, {name === "" ? "Guest" : name}.{" "}
           </h3>
           <p style={{ fontSize: "1.2rem", width: "45%" }}>
             I've been coding/learning everyday since I started my developer
@@ -59,9 +59,6 @@ const About = (props) => {
             <li>Hobbies: Games, Gym</li>
             <li>Love solving puzzles</li>
           </ul>
-        </div>
-        <div className="col-lg-12">
-          <h4></h4>
         </div>
       </div>
     </div>
