@@ -51,7 +51,7 @@ const About = (props) => {
             development journey.
           </p>
           <br />
-          <ul>
+          <ul style={{ fontSize: "1.4rem" }}>
             <li>Location: Downey, CA</li>
             <li>U.S. Army Reserve</li>
             <li>Korean-American</li>
