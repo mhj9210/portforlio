@@ -33,6 +33,7 @@ const Skills = () => {
               <li className="list-group-item">C#</li>
               <li className="list-group-item">ASP.NET</li>
               <li className="list-group-item">.Net Core</li>
+              <li className="list-group-item"> SQL Server</li>
               <li className="list-group-item">Node.JS(Express, MongoDB)</li>
               <li className="list-group-item"></li>
             </ul>
@@ -45,7 +46,6 @@ const Skills = () => {
             <ul className="list-group list-group-flush mt-4 col-md-6 mx-auto">
               <li className="list-group-item"> VS Code</li>
               <li className="list-group-item">Git</li>
-              <li className="list-group-item"> SQL Server</li>
               <li className="list-group-item">SQL Server ManagementStudio</li>
               <li className="list-group-item"></li>
             </ul>
