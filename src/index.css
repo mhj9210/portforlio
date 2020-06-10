@@ -56,6 +56,15 @@ body {
 .active {
   border-bottom: 3px solid #ff7315;
 }
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #fff;
+}
+
 /* ----------------------------------------------------- */
 
 /* ------------------- ABOUT --------------------------- */
@@ -73,34 +82,18 @@ body {
   border-radius: 50px;
 }
 /* ------------ SKILLS----------------------------- */
-.card {
-  margin-top: 50%;
-}
-
-.skill_title {
-  font-size: 25px;
-}
-
-.list-group-item {
-  display: flex !important;
-  justify-content: space-around;
-}
-
-.skill_list {
-  font-size: 20px;
-  width: 25%;
-}
-
-.rating {
+.list-group-flush li {
+  background-color: transparent;
   text-align: end;
-  width: 25%;
+  font-size: larger;
 }
 
 /* ------------------------------------------------------- */
 
 /* ------------------- PROJECTS--------------------------- */
 .project_card {
-  background-color: #99b898 !important;
+  background-color: #ffffff !important;
+  margin-top: 60%;
 }
 
 /* ------------------------------------------------------- */

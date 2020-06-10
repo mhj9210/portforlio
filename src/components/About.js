@@ -17,7 +17,7 @@ const About = (props) => {
           <img
             src="https://i.imgur.com/4PrCrOS.jpg"
             alt=""
-            style={{ width: "45%", marginLeft: "50%" }}
+            style={{ width: "45%", marginLeft: "50%", borderRadius: "15px" }}
           />
         </div>
         <div className="col-lg-6">

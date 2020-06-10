@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div
       className="container-fluid"
-      style={{ height: "100vh", backgroundColor: "#efee9d" }}
+      style={{ height: "100vh", backgroundColor: "#f6eedf" }}
       id="projects"
     >
       <div className=" h-100 row">
@@ -36,7 +36,7 @@ const Projects = () => {
                 </a>
               </div>
               <span
-                className="text-right text-white"
+                className="text-right"
                 style={{ fontFamily: "Lobster, cursive" }}
               >
                 Mar 2020 - Present
@@ -69,7 +69,7 @@ const Projects = () => {
                 </a>
               </div>
               <span
-                className="text-right text-white"
+                className="text-right"
                 style={{ fontFamily: "Lobster, cursive" }}
               >
                 Aug 2019 - Dec 2019
