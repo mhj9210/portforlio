@@ -46,6 +46,7 @@ const Skills = () => {
             <ul className="list-group list-group-flush mt-4 col-md-6 mx-auto">
               <li className="list-group-item"> VS Code</li>
               <li className="list-group-item">Git</li>
+              <li className="list-group-item">Github</li>
               <li className="list-group-item">SQL Server ManagementStudio</li>
               <li className="list-group-item"></li>
             </ul>
