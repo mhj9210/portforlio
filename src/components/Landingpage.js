@@ -27,6 +27,7 @@ const Landingpage = () => {
             <Link
               to="/main"
               className="btn btn-outline-white animated fadeInLeft slow my-4"
+              style={{ letterSpacing: "2px" }}
             >
               Main Page
             </Link>
