@@ -30,11 +30,9 @@ const Skills = () => {
               <h1 className="mt-3">Back End</h1>
             </div>
             <ul className="list-group list-group-flush mt-4 col-md-6 mx-auto">
-              <li className="list-group-item">C#</li>
-              <li className="list-group-item">ASP.NET</li>
-              <li className="list-group-item">.Net Core</li>
-              <li className="list-group-item"> SQL Server</li>
-              <li className="list-group-item">Node.JS(Express, MongoDB)</li>
+              <li className="list-group-item">Node.JS</li>
+              <li className="list-group-item">Express</li>
+              <li className="list-group-item">MongoDB</li>
               <li className="list-group-item"></li>
             </ul>
           </div>
@@ -47,7 +45,8 @@ const Skills = () => {
               <li className="list-group-item"> VS Code</li>
               <li className="list-group-item">Git</li>
               <li className="list-group-item">Github</li>
-              <li className="list-group-item">SQL Server ManagementStudio</li>
+              <li className="list-group-item">Github Desktop</li>
+              <li className="list-group-item">Postman</li>
               <li className="list-group-item"></li>
             </ul>
           </div>
